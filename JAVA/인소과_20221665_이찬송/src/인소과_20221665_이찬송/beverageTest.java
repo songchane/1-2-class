@@ -1,0 +1,17 @@
+package 인소과_20221665_이찬송;
+
+public class beverageTest {
+	public static void main(String[] args) {
+		
+		Coke cola = new Coke("콜라", "탄산 음료", 37);
+		
+		System.out.println("타입:" + cola.getType());
+		System.out.println("칼로리:" + cola.getKcal());
+		
+		System.out.println("맛:" + cola.getCarbonated());
+		
+		cola.Carbonateddrink();
+	}
+
+
+}
